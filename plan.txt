@@ -1,0 +1,10 @@
+Plan i harmonogram realizacji 
+1. app jQuery
+    a)html (Maja)
+    b)css (Maja/Kuba)
+    c)js (Maja)
+2. app p5
+    a)html (Mateusz)
+    b)css (Mateusz/Kuba)
+    c)js (Kuba)
+3. Każdy z członków grupy przegląda kody i wprowadza poprawki. 
