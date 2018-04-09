@@ -118,6 +118,10 @@ body {
     overflow: hidden;
 }
 
+#auto-gracza{
+    position: absolute;
+}
+
 .linia{
     position: absolute;
     height: 150px;

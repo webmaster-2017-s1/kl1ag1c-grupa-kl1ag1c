@@ -7,4 +7,5 @@ Plan i harmonogram realizacji
     a)html (Mateusz)
     b)css (Mateusz/Kuba)
     c)js (Kuba)
-3. Każdy z członków grupy przegląda kody i wprowadza poprawki. 
+3. Każdy z członków grupy przegląda kody i wprowadza poprawki.
+ 
