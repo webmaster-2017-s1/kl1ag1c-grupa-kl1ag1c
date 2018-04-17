@@ -9,7 +9,6 @@ var y=200;
 
 //Pozycja sceny
 var scene=0;
-var tablica= [[]];
 
 
 function setup() {
@@ -34,7 +33,6 @@ function draw() {
   moveStripes();
   fill('red');
 
-  //Zamieńcie na obrazek samochodu
   rect(x,y,20,40);
   fill('white');
 }
