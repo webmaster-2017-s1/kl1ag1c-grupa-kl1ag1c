@@ -1,20 +1,21 @@
 // kod projektu [wpisz nazwę]
 var resx=300;
-var resy=300;
+var resy=400;
 
 
 //Pozycja gracza
 var x=resx/2;
-var y=50;
+var y=200;
 
 //Pozycja sceny
 var scene=0;
+var tablica= [[]];
 
 
 function setup() {
   // put setup code here
   createCanvas(resx, resy);
-  background(100);
+   background(100);
 }
 
 function moveCar(v,d) {
@@ -46,25 +47,23 @@ function moveStripes() {
   }
   scene+=5;
   if(scene===resy-200) scene=0;
-
 }
 
 
 function keyboardEvent(){
-  if (keyIsDown(LEFT_ARROW)) {
+  if (keyIsDown(LEFT_ARROW)&&x>0) {
     moveCar(-2,"x");
   }
 
-  if (keyIsDown(RIGHT_ARROW)) {
+  if (keyIsDown(RIGHT_ARROW)&&x<278) {
     moveCar(2,"x")
   }
 
-  if (keyIsDown(UP_ARROW)) {
+  if (keyIsDown(UP_ARROW)&&y>0) {
     moveCar(-2,"y")
   }
 
-  if (keyIsDown(DOWN_ARROW)) {
+  if (keyIsDown(DOWN_ARROW)&&y<365) {
     moveCar(2,"y")
   }
 }
-
